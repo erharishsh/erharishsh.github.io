@@ -10,7 +10,7 @@ These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools d
 
 **1. apkanalyzer** used to analyze the apk, it's size and files inside the packaged entity.This is a pretty helpful tool to check the contribution of different components to the overall download size of apk.
 
-**2. avdmanager** used to create/update the virutal devices.These devices can be used for testing your apks.
+**2. avdmanager** used to create/update the AVD (Android virutal device).These devices can be used for testing your apks.
 
 **3. lint** used for static analysis of code.It helps to identify and correct problems with the structural quality of the code.
 
