@@ -6,7 +6,7 @@
 
 
 ### 1. SDK tools: 
-These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools does not depend on the android platform or the android version you are developing on.Few of the major tools are as follows:
+These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools does not depend on the android platform or the android version you are developing on.These are the essential tools required for the android development.Few of the major tools are as follows:
 
 **1. apkanalyzer** used to analyze the apk, it's size and files inside the packaged entity.This is a pretty helpful tool to check the contribution of different components to the overall download size of apk.
 
@@ -24,6 +24,9 @@ These tools can be found in "<your_android_sdk>/build-tools/<version>/" folder.T
  
  **2. apksigner** is used to sign the apk.You can get more details about apk signing [here](www.google.com).
  
- **3. zipalign** is used to align the data into a archive file i.e. APK in android.It also optimize the APK file.More details about the process is [here](www.google.com).
+ **3. zipalign** is used to align the data into a archive file i.e. APK in android.This helps to optimize the APK to take less memory.More details about the process is [here](www.google.com).
               
-  
+### 3. Platform tools: 
+These tools can be found in "<your_android_sdk>/platform-tools/" folder.As the name signifies these tools are updated for every new version of android platform to support new features.Few of the major tools are as follows:
+
+
