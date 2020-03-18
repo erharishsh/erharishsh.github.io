@@ -44,6 +44,8 @@ These tools can be found in "<your_android_sdk>/emulator/" folder.These tools pr
 
 **2. mksdcard** is used to create a virtual external sd card for the emulator.
 
+> Please note that AVD and emulator are two different things. An Android Virtual Device (AVD) is an emulator configuration that defines the hardware and software options to be emulated by an Android Emulator.
+
 
 
 
