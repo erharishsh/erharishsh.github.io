@@ -6,7 +6,7 @@
 
 
 ### 1. SDK tools: 
-These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools does not depend on the android platform or the android version you are developing on.Just to keep in mind what could be the part of SDK tools thought about if that tools does have anything to do with android versions update.Few of the major tools are as follows:
+These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools does not depend on the android platform or the android version you are developing on.Few of the major tools are as follows:
 
 **1. apkanalyzer** used to analyze the apk, it's size and files inside the packaged entity.This is a pretty helpful tool to check the contribution of different components to the overall download size of apk.
 
@@ -18,7 +18,12 @@ These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools d
 
 
 ### 2. Build tools: 
-
-
+These tools can be found in "<your_android_sdk>/build-tools/<version>/" folder.These tools are used to compile,debug or test your application.For each API level there is new build tool version(started from API level 18).Like API level 23 has build tool versions 23.0.X i.e. 23.0.0,23.0.1,23.0.2 and 23.0.3.
+  
+ **1. aapt** stands for Android asset packaging tool. It is used to view, create, and update Zip-compatible archives (zip, jar, apk).Android Studio and Android Gradle Plugin use it to compile and package your app’s resources. It parses, indexes, and compiles the resources into a binary format that is optimized for the Android platform.
+ 
+ **2. apksigner** is used to sign the apk.You can get more details about apk signing [here](www.google.com).
+ 
+ **3. zipalign** is used to align the data into a archive file i.e. APK in android.It also optimize the APK file.More details about the process is [here](www.google.com).
               
   
