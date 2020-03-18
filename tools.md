@@ -40,6 +40,7 @@ These tools can be found in "<your_android_sdk>/platform-tools/" folder.As the n
 
 ### 4. Emulator:
 These tools can be found in "<your_android_sdk>/emulator/" folder.These tools provides the functionality to use the android emulator and manage them.
+
 **1. emulator** is used to start an emulator.An emulator is a device-emulation tool that you can use to debug and test your applications in an actual Android run-time environment.
 
 **2. mksdcard** is used to create a virtual external sd card for the emulator.
