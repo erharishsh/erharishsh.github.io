@@ -21,7 +21,7 @@ These tools can be found in "<your_android_sdk>/tools/bin/" folder.These tools d
 ### 2. Build tools: 
 These tools can be found in "<your_android_sdk>/build-tools/<version>/" folder.These tools are used to compile,debug or test your application.For each API level there is new build tool version(started from API level 18).Like API level 23 has build tool versions 23.0.X i.e. 23.0.0,23.0.1,23.0.2 and 23.0.3.
   
- **1. aapt** stands for Android asset packaging tool. It is used to view, create, and update Zip-compatible archives (zip, jar, apk).Android Studio and Android Gradle Plugin use it to compile and package your app’s resources. It parses, indexes, and compiles the resources into a binary format that is optimized for the Android platform.
+ **1. aapt** stands for Android asset packaging tool. Android Studio and Android Gradle Plugin use it to compile and package your app’s resources. It parses, indexes, and compiles the resources into a binary format that is optimized for the Android platform.
  
  **2. apksigner** is used to sign the apk.You can get more details about apk signing [here](www.google.com).
  
